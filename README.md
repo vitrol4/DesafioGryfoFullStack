@@ -18,8 +18,8 @@ Mas todos devem poder ser ligados em qualquer ordem.
 
 Requisitos
 - API deve ser feita com python utilizando o Flask
-- o processamento de imagem deve ser feito com OpenCV (python cv2)
+- O processamento de imagem deve ser feito com OpenCV (python cv2)
 
 Dicas
-- estruturar a comunicação utilizando exemplos do próprio Flask
-- depois preencher as funções mockadas de processamento de imagem com o exemplos da documentação/stack overflow da opencv em python
+- Estruturar a comunicação utilizando exemplos do próprio Flask
+- Preencher as funções mockadas de processamento de imagem com o exemplos da documentação/stack overflow da opencv em python
