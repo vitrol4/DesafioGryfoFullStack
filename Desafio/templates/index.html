@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Home</title>
+    <meta content="">
+    <style></style>
+  </head>
+  <body>
+    <h1>Home</h1>
+    <form method=post enctype=multipart/form-data>
+      <input type=file name=file accept="image/*">
+      <input type=submit value=Upload><br>
+      {% for option in options %}
+      <input type="checkbox" id={{option}} name={{option}}>
+      <label for={{option}}>{{option}}</label><br>
+      {% endfor %}
+    </form>
+  </body>
+</html>
