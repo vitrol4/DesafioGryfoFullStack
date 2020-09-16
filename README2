@@ -1,0 +1,22 @@
+É inviável subir a venv inteira aqui, por isso vou deixar as informações para rodar o app neste README2.
+
+Lista de todos os pacotes instalados na minha venv:
+Package       Version 
+------------- --------
+click         7.1.2   
+Flask         1.1.2   
+itsdangerous  1.1.0   
+Jinja2        2.11.2  
+MarkupSafe    1.1.1   
+numpy         1.19.2  
+opencv-python 4.4.0.42
+pip           18.1    
+pkg-resources 0.0.0   
+setuptools    40.8.0  
+Werkzeug      1.0.1   
+
+Para rodar o app, digite dentro da venv ativada:
+export FLASK_APP=Desafio
+export FLASK_ENV=development
+
+Espero não estar esquecendo de nada.
